@@ -1,0 +1,112 @@
+/*------------------
+        fonts       
+--------------------*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+/*--------------------
+     common styles     
+  --------------------*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    
+}
+a { text-decoration: none }
+
+.container {
+    background-color: white;
+    width: 1050px;
+    margin-top: 70px;
+  }
+/*--------------------
+    Header Area CSS    
+  --------------------*/
+header {
+    background: #2D25A0;
+    color:white;
+    height: 677px;
+}
+
+.header-area {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-left {
+    width: 485px;
+    height: 230px;
+    margin-left: 156px;
+    margin-top: 207px;
+    margin-bottom: 240px;
+}
+
+.header-right {
+    width: 556.01px;
+    height: 438px;
+    margin-top: 153px;
+    margin-left: 141px;
+}
+
+.header-left h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+a.watch-btn:hover{
+    background-color:coral;
+}
+
+.watch-btn{
+    width: 168px;
+    height: 44px;
+    background: #E02C6D;
+    color: #fff;
+    padding: 10px 24px;
+    margin-top: 10px;
+    transition: .3s;
+}
+
+i.fa{
+    padding-left: 20px;
+}
+
+/* -----------------------
+  Player List Section CSS 
+--------------------------*/
+.player-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+
+.single-player {
+    filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
+    /* border-radius: 40px; */
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.single-player {
+    box-shadow: 0 5px 15px rgba(15, 10, 10, 0.1);
+}
+.single-player-blog h3 {
+    width: 300px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #18191F;
+    line-height: 40px;
+}
+.single-player-blog p {
+    font-size: 16px;
+    color:#6C6C6C;
+    line-height: 26px;
+}
